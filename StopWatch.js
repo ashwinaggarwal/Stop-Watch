@@ -1,7 +1,8 @@
 	// Prevent multiple clicks on start
 	var isSet=false;
 	
-	<!-- Time at start (Returns present time wrt 1970)-->
+	// Time at start (Returns present time wrt 1970)
+	
 	var timeatStart=timeatStop=0;
 	function timeNow(){
 		return (new Date()).getTime();
